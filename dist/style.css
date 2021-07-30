@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+* html {
+  font-size: 100%;
+}
+
+body {
+  background-color: gray;
+  padding: 10%;
+}
+
+.article {
+  background-color: hotpink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article__side1 h1 {
+  word-spacing: 12px;
+}
+
+.article__side2 {
+  font-family: 0.75rem;
+  color: white;
+}
+
+.article__side2 .accent_box {
+  border-radius: 10px;
+  padding: 25px 108px;
+  background-color: #6055a5;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.article__side2 .form {
+  padding: 40px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article__side2 .form input {
+  border-radius: 5px;
+  width: 433px;
+  border: 1px solid #999999;
+  padding: 20px 32px;
+  margin-bottom: 20px;
+}
+
+.article__side2 .form .button {
+  color: white;
+  border: none;
+  background-color: #38cc8c;
+  padding: 20px 0px;
+}
+
+.article__side2 .form .message {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article__side2 .form .message p {
+  font-size: 0.5rem;
+  color: #3e3c49;
+}
