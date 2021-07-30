@@ -12,7 +12,7 @@
 
 body {
   background-color: gray;
-  padding: 10%;
+  padding-top: 10%;
 }
 
 .article {
@@ -25,11 +25,20 @@ body {
           align-items: center;
 }
 
+.article__side1 {
+  font-size: 1rem;
+  padding-right: 5%;
+  margin-left: 10%;
+  width: 50%;
+}
+
 .article__side1 h1 {
   word-spacing: 12px;
 }
 
 .article__side2 {
+  width: 50%;
+  margin-right: 10%;
   font-family: 0.75rem;
   color: white;
 }
@@ -56,7 +65,7 @@ body {
 
 .article__side2 .form input {
   border-radius: 5px;
-  width: 433px;
+  width: 100%;
   border: 1px solid #999999;
   padding: 20px 32px;
   margin-bottom: 20px;

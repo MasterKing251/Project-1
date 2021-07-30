@@ -1,17 +1,23 @@
 body {
   background-color: gray;
-  padding: 10%;
+  padding-top: 10%;
 }
 .article {
   background-color: hotpink;
   display: flex;
   align-items: center;
   &__side1 {
+    font-size: $font_med;
+    padding-right: 5%;
+    margin-left: 10%;
+    width: 50%;
     h1 {
       word-spacing: 12px;
     }
   }
   &__side2 {
+    width: 50%;
+    margin-right: 10%;
     font-family: $font_small;
     color: rgb(255, 255, 255);
     .accent_box {
@@ -28,7 +34,7 @@ body {
       flex-direction: column;
       input {
         border-radius: 5px;
-        width: 433px;
+        width: 100%;
         border: 1px solid #999999;
         padding: 20px 32px;
         margin-bottom: 20px;
